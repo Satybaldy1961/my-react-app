@@ -4,6 +4,7 @@ import './App.css';
 function App() {
 console.log("App.js загружен");
   console.log("Текущий URL:", window.location.href);
+console.log("App.js загружен", process.env.NODE_ENV);
   return (
     <div className="App">
       <header className="App-header">
