@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+console.log("App.js загружен");
+  console.log("Текущий URL:", window.location.href);
   return (
     <div className="App">
       <header className="App-header">
