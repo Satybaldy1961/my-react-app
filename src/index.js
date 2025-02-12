@@ -4,10 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
-
-console.log("Current URL:", window.location.href);
-console.log("Test change");
-
+console.log("https://moi-proekt.vercel.app/");
 ReactDOM.render(
   <React.StrictMode>
     <App />
