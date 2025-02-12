@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
 
 console.log("Current URL:", window.location.href);
+console.log("Test change");
 
 ReactDOM.render(
   <React.StrictMode>
